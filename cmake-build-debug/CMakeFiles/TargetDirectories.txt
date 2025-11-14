@@ -1,3 +1,0 @@
-/home/rewdrewmek/clion_projects/HeatTransfer/cmake-build-debug/CMakeFiles/heat.dir
-/home/rewdrewmek/clion_projects/HeatTransfer/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/rewdrewmek/clion_projects/HeatTransfer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
