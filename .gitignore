@@ -1,0 +1,28 @@
+# CLion / CMake
+.idea/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+build/
+*.ninja
+*.ninja_deps
+*.ninja_log
+Makefile
+cmake_install.cmake
+
+# Binaries / objects
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Generated data
+timeFiles/
+*.vtk
+
+# CTest / misc
+Testing/
