@@ -1,0 +1,33 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/usr/bin/ninja -DCMAKE_C_COMPILER=/bin/gcc -DCMAKE_CXX_COMPILER=/bin/g++ -G Ninja -S /home/rewdrewmek/clion_projects/HeatTransfer -B /home/rewdrewmek/clion_projects/HeatTransfer/cmake-build-release
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Enabled Kokkos devices: OPENMP
+-- Configuring done (1.0s)
+CMake Error in CMakeLists.txt:
+  Imported target "Kokkos::kokkos" includes non-existent path
+
+    "/include"
+
+  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+
+  * The path was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and references files it does not
+  provide.
+
+
+
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
